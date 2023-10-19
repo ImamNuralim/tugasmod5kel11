@@ -1,0 +1,128 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ffffffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+
+
+.pagination {
+  margin-top: 20px;
+}
+
+/* Aturan CSS untuk menampilkan 2 kolom */
+.pokemon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pokemon-item {
+  width: 45%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.App {
+  width: 100%; height: 100vh; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;
+  }
+.list-title-wrapper { 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 0.5rem;
+    background-color: #07a32e;
+    }
+      /* src/App.css */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+}
+
+.pokemon-list {
+  list-style: none;
+  padding: 0;
+}
+
+.pokemon-item {
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.pagination {
+  margin-top: 25px;
+  
+  font-size: 18px;
+  margin-left: 15%;
+}
+
+/* #tombol1, #tombol2 {
+  margin: 0 5px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  background-color: #088817;
+  color: white;
+  border-radius: 5px;
+} */
+.tombol {
+  margin: 0 5px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  background-color: #000000;
+  color: white;
+  border-radius: 5px;
+}
+.pagination button:hover {
+  background-color: #5D12D2;
+}
